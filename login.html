@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>login</title>
+
+        <script scr="script.js"></script>  
+            function validateForm() 
+            {
+                var username = document.getElementById("username").value;
+                var password = document.getElementById("password").value;
+
+                if(username=="admin" & password=="123")
+                {
+                    aler(username and password valid")
+                }
+                else
+                {
+                    alert("Login credentials not valid. Access denied.");
+                }
+            }
+            
+    </head>
+    <body>
+    <center>
+        <table>
+            <tr>
+                <td><label>username</label></td> <td><input type="text" name="username" id="username"></td>
+            </tr>
+            <tr>
+                td><label>username</label></td> <td><input type="password" name="password" id="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="button" name:"validationBtn" id="validationBtn" onclick="validate ()" value="validate" style="width: 100%"></td>
+            </tr>
+        </table>
+    </center>
+        
+    </body>
+</html>
